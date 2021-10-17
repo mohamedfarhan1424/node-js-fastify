@@ -5,7 +5,7 @@ const AutoLoad = require('fastify-autoload')
 const mongoose = require('mongoose');
 const notesController=require('./Controllers/NoteController');
 
-const uri = "mongodb+srv://dbUserFarhan:c5J9o3ZmYObI4EYa@cluster0.hmdzq.mongodb.net/companydetails?retryWrites=true&w=majority";
+const uri = "";
 mongoose.connect(uri,{ useNewUrlParser: true, useUnifiedTopology: true });
 
 
